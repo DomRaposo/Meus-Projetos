@@ -36,7 +36,7 @@ body{
     transition: 0.9s;
 }
 /* FIM NAVBAR */
-
+/* INICIO MAIN */
 .main{
     width: 100%;
     background-color: #c1c1c1;
@@ -73,3 +73,25 @@ body{
     transform: scale(1.1);
     transition: 0.09s;
 }
+/* FINAL MAIN */
+
+/* INICIO SOBRE */
+
+.about{
+
+    background-color: #fff;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about img{
+    
+}
+
+/* FINAL SOBRE */
