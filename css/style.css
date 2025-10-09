@@ -7,6 +7,7 @@
 
 body{
     font-family: "Roboto", sans-serif;
+    
 }
 /* INICIO NAVBAR */
 .nav{
@@ -15,6 +16,16 @@ body{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    z-index: 9;
+    top: 0;
+    position: sticky;
+    
+
+    
+}
+
+html{
+scroll-behavior: smooth;
 }
 
 .nav-list{
@@ -154,5 +165,80 @@ body{
     font-style: italic;
 }
 
+.action{
+    background: #000;
+    border: 0;
+    padding: 14px 28px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
 
 /* FIM PROJETOS */
+
+/* Inicio Footer */
+.footer{
+    color: #fff;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+/* Fim Footer */
+
+/* Responsividade */
+@media(max-width: 1050px){
+    /* Main */
+    .main h1{
+        font-size: 45px;
+
+    }
+    .main p{
+        font-size: 18px;
+
+    }
+    .main{
+        background-size: cover;
+    }
+    /* Fim Main */
+    
+    /* Sobre */
+    .about{
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        text-align: justify;
+    }
+
+    .about div{
+        max-width: 80%;
+        padding: 0px;
+    }
+
+    .about div h2{
+        font-size: 42px;
+    }
+
+    .about img{
+        margin-top: 30px;
+        width: 80%;
+    }
+    /* Fim Sobre */
+
+    /* Projetos */
+    .my_projects img{
+        width: 27.5%;
+    }
+
+
+    /* Fim Projetos */
+
+}
+
